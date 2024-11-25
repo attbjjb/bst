@@ -1,5 +1,6 @@
 from anytree import Node, RenderTree
 
+class HeapTree:
     def __init__(self, val=None):
         self.value = val
         if self.value:
